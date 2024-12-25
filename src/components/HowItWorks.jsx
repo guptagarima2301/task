@@ -33,25 +33,25 @@ const HowItWorks = () => {
     />
   </svg>
 
-  {/* Step 1 */}
+  
   <div className="circle" style={{ left: "44px", top: "180px" }}>
     <img src={targetImg} alt="Set your goal" />
     <p>Step 1: Set your goal</p>
   </div>
 
-  {/* Step 2 */}
+  
   <div className="circle" style={{ left: "310px", top: "140px" }}>
     <img src={groupImg} alt="Create or Join Group" />
     <p>Step 2: Create or Join Group</p>
   </div>
 
-  {/* Step 3 */}
+  
   <div className="circle" style={{ left: "580px", top: "200px" }}>
     <img src={paymentImg} alt="Pay amount on time" />
     <p>Step 3: Pay amount on time</p>
   </div>
 
-  {/* Step 4 */}
+  
   <div className="circle" style={{ left: "800px", top: "24px" }}>
     <img src={rewardsImg} alt="Earn Rewards" />
     <p>Step 4: Earn Rewards</p>
