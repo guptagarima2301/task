@@ -25,7 +25,7 @@
     width: 100%;
     height: 100%;
     z-index: 0;
-    stroke-dasharray: 1000; /* Total path length */
+    stroke-dasharray: 1000; 
     stroke-dashoffset: 1000;
     animation: drawLine 2s ease-in-out forwards;
 }
@@ -45,15 +45,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: absolute;
     z-index: 1;
-    opacity: 0; /* Hidden initially */
-    transform: translateY(30px); /* Initial position for animation */
+    opacity: 0; 
+    transform: translateY(30px); 
     animation: bounceIn 1s ease-out forwards;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .circle:hover {
-    transform: translateY(-10px) scale(1.4);  /* Scale up the circle */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow for the pop effect */
+    transform: translateY(-10px) scale(1.4);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 .circle:nth-child(1) {
@@ -86,7 +86,7 @@
 
 
 
-/* Animations */
+
 @keyframes drawLine {
     from {
         stroke-dashoffset: 1000;
@@ -121,7 +121,7 @@
 }
 
 
-/* Mobile Responsive Styles */
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 1rem;
@@ -145,8 +145,8 @@
     }
 
     .circle {
-        position: static; /* Remove absolute positioning */
-        margin: 1rem 0; /* Add vertical spacing between circles */
+        position: static; 
+        margin: 1rem 0; 
         transform: none;
         left: auto !important;
         top: auto !important;
@@ -157,7 +157,7 @@
     }
 }
 
-/* Small mobile screens */
+
 @media screen and (max-width: 480px) {
     .title {
         font-size: 2rem;
